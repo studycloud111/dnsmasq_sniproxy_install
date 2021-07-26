@@ -17,12 +17,6 @@ level3.net
 llnwd.net
 edgecastcdn.net
 cloudfront.net
-netflix.com
-netflix.net
-nflximg.net
-nflxvideo.net
-nflxso.net
-nflxext.com
 hulu.com
 huluim.com
 hbonow.com
@@ -97,7 +91,7 @@ tvb.com
 tvb.com.au
 tvbanywhere.com
 tvbanywhere.com.sg
-tvbc.com.cn @cn
+tvbc.com.cn
 tvbeventpower.com.hk
 tvbusa.com
 tvbweekly.com
