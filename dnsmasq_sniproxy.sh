@@ -319,7 +319,7 @@ install_sniproxy(){
             fi
             error_detect_depends "yum -y install /tmp/sniproxy/rpmbuild/RPMS/x86_64/sniproxy-*.rpm"
         fi
-        download /etc/init.d/sniproxy https://raw.githubusercontent.com/studycloud111/sniproxy/master/redhat/sniproxy.init && chmod +x /etc/init.d/sniproxy
+        download /etc/init.d/sniproxy https://raw.githubusercontent.com/dlundquist/sniproxy/master/redhat/sniproxy.init && chmod +x /etc/init.d/sniproxy
     elif check_sys packageManager apt; then
         if [[ ${fastmode} = "1" ]]; then
             if [[ ${bit} = "x86_64" ]]; then
